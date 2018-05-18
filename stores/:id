@@ -11,7 +11,7 @@ background-color: #FFFFFF ;
 
 .page_banner {
     line-height:1;
-    padding-top:30px;
+    /*padding-top:30px;*/
 }
 .banner_1{
     margin-bottom:5px;
