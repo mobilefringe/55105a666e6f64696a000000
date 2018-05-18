@@ -118,7 +118,7 @@ background-color: #FFFFFF ;
         <div class="right_column">
             <div id="store_detail_container">
                 <script id="store_detail_template" type="x-tmpl-mustache/text">
-                    <img class="detail_logo" src="{{alt_store_front_url}}">
+                    <img class="detail_logo" src="{{alt_store_front_url}}" alt="{{name}} Logo">
                     <p class="directory_content" id="mobile_desc" style="display:none">{{description}}</p>
                     <p class="right_column_header" id="phone_label">Phone</p>
                     <p class="directory_content">{{phone}}</p>
