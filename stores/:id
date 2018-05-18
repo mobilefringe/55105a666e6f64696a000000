@@ -65,6 +65,7 @@ background-color: #FFFFFF ;
             <li><a href="/stores">Store Directory</a></li>
             <li class="active">{{name}}</li>
         </ul>
+        </nav>
         <div class="page_banner">
                 <p class="banner_1">{{name}} </p>
                 <p class="banner_2">{{z_coordinate}}</p>
