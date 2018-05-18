@@ -96,7 +96,7 @@ background-color: #FFFFFF ;
                             <p class="promo_header right_column_header">{{name}}</p>
                             <p class="directory_content promo_date">{{dates}}</p>
                             <p>{{description}}</p>
-                            <a href="../promotions/{{slug}}" class="btn btn-primary pull-left">Read More</a> </div>
+                            <a href="../promotions/{{slug}}" class="btn btn-primary pull-left">Promotion Details</a> </div>
                         </div>
                     </div>
                     </script>
