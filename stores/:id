@@ -75,7 +75,7 @@ background-color: #FFFFFF ;
 <div  id="main_content" style="display:none">
     <div class="inside_page_content">
         <div class="left_column">
-            <img src= "//kodekloud.s3.amazonaws.com/sites/55105a666e6f64696a000000/4d99f2ea99128ccfc5541bbc645f152c/map_place.jpg">
+            <img src= "//kodekloud.s3.amazonaws.com/sites/55105a666e6f64696a000000/4d99f2ea99128ccfc5541bbc645f152c/map_place.jpg" alt="">
             <br><br>
             <div id="store_desc_container">
                 <script id="store_desc_template" type="x-tmpl-mustache">
