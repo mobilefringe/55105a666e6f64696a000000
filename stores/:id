@@ -60,11 +60,11 @@ background-color: #FFFFFF ;
 <div id="store_title_container">
     <script id="store_title_template" type="x-tmpl-mustache">
         <nav>
-        <ul class="breadcrumb">
-            <li><a href="/home">Home</a> </li>
-            <li><a href="/stores">Store Directory</a></li>
-            <li class="active">{{name}}</li>
-        </ul>
+            <ul class="breadcrumb">
+                <li><a href="/home">Home</a> </li>
+                <li><a href="/stores">Store Directory</a></li>
+                <li class="active">{{name}}</li>
+            </ul>
         </nav>
         <div class="page_banner">
                 <p class="banner_1">{{name}} </p>
