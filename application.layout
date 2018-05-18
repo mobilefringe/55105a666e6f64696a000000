@@ -92,7 +92,8 @@
             });      
         });
         
-        setEndPoint('//portstreet.mallmaverick.com/api/v4/portstreet/all.json');
+        // setEndPoint('//portstreet.mallmaverick.com/api/v4/portstreet/all.json');
+        setEndPoint('//twinpine.mallmaverick.com/api/v4/twinpine/all.json');
     </script>
     <style>
         /*custom styles*/
