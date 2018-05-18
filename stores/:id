@@ -75,17 +75,8 @@ background-color: #FFFFFF ;
 <div  id="main_content" style="display:none">
     <div class="inside_page_content">
         <div class="left_column">
-        <img src= "//kodekloud.s3.amazonaws.com/sites/55105a666e6f64696a000000/4d99f2ea99128ccfc5541bbc645f152c/map_place.jpg">
-        <br><br>
-            <!--<div class="store_map" id="store_map">-->
-            
-                <!--<script id="store_deatils_map_template" type="x-tmpl-mustache">
-                    <div class="demo1">
-                        <img alt="map" src="" class="imgMap" id="map_image" />                
-                        <div class="marker" id='scroll_to_marker' data-coords="{{x_coordinate}}, {{y_coordinate}}"></div>   
-                    </div>   
-                </script> -->
-            <!--</div>-->
+            <img src= "//kodekloud.s3.amazonaws.com/sites/55105a666e6f64696a000000/4d99f2ea99128ccfc5541bbc645f152c/map_place.jpg">
+            <br><br>
             <div id="store_desc_container">
                 <script id="store_desc_template" type="x-tmpl-mustache">
                     <p>{{description}}</p>
