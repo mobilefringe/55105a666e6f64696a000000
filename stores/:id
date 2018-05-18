@@ -67,7 +67,7 @@ background-color: #FFFFFF ;
             </ul>
         </nav>
         <div class="page_banner">
-                <p class="banner_1">{{name}} </p>
+                <h2 class="banner_1">{{name}} </h2>
                 <p class="banner_2">{{z_coordinate}}</p>
         </div>
     </script>
