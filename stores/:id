@@ -255,7 +255,7 @@ background-color: #FFFFFF ;
                 $("#anchor_id").click();
                 $("#scroll_to_marker").click();
             });
-            $.getScript("http://bkindoortemplate.codecloudapp.com/slimbox_mod.js");
+            $.getScript("//bkindoortemplate.codecloudapp.com/slimbox_mod.js");
             $('head').append('<link rel="stylesheet" href="//cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
         }
         
