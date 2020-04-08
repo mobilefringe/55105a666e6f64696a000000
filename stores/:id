@@ -75,7 +75,7 @@ background-color: #FFFFFF ;
 <div  id="main_content" style="display:none">
     <div class="inside_page_content">
         <div class="left_column">
-            <img src= "//kodekloud.s3.amazonaws.com/sites/55105a666e6f64696a000000/4d99f2ea99128ccfc5541bbc645f152c/map_place.jpg" alt="">
+            <img src= "" alt="" class="inside_banner_image2">
             <br><br>
             <div id="store_desc_container">
                 <script id="store_desc_template" type="x-tmpl-mustache">
@@ -255,6 +255,13 @@ background-color: #FFFFFF ;
                 $("#anchor_id").click();
                 $("#scroll_to_marker").click();
             });
+            
+            // dynamic banner 
+            var bannerInfo = getRepoDetailsByName('Store Details Banner')
+            var bannerImageUrl = bannerInfo.images[0].image_url
+            if (bannerImageUrl) {
+                $(".inside_banner_image2").attr("src", bannerImageUrl);
+            } 
             $.getScript("//bkindoortemplate.codecloudapp.com/slimbox_mod.js");
             $('head').append('<link rel="stylesheet" href="//cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
         }
